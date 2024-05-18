@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Rick y Morty API</title>
+    <style>
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        #div {
+            position: relative;
+            width: 80%;
+            margin: 0 auto;
+            top: 50%;
+            transform: translateY(-50%);
+            background: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4" id="root">
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
